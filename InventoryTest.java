@@ -11,7 +11,7 @@ import java.util.Comparator;
 import java.util.List;
 
 /**
- * Step 2: Product Inventory and Sorting.
+  Product Inventory and Sorting
  */
 public class InventoryTest extends BaseTest {
 
