@@ -71,7 +71,7 @@ testng.xml                        # suite definition, parallel="tests" thread-co
 ## Running the tests
 
 Prerequisites: JDK 11+, Maven 3.8+, Google Chrome and/or Firefox installed locally.
-
+and run mvn clean test to generate the report locally under test-output/extent-report/
 ```bash
 # default run (Chrome, from config.properties)
 mvn clean test
