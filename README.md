@@ -125,16 +125,4 @@ variable (e.g. `BASE_URL`), then this file.
 | Logout | returns to login page |
 | Cart/session | cart persists across Inventory↔Cart navigation, cart/session behavior across a fresh login after logout |
 
-## Pushing this project to GitHub
 
-This project is not yet pushed anywhere — create a repo on GitHub, then:
-
-```bash
-cd saucedemo-automation
-git init
-git add .
-git commit -m "Initial commit: SauceDemo Selenium automation framework"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<your-repo>.git
-git push -u origin main
-```
