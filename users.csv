@@ -1,0 +1,12 @@
+username,password,expectedResult,description
+standard_user,secret_sauce,SUCCESS,Standard user - valid login
+locked_out_user,secret_sauce,LOCKED_OUT,Locked out user - should be blocked
+problem_user,secret_sauce,SUCCESS,Problem user - valid login (UI has known issues)
+performance_glitch_user,secret_sauce,SUCCESS,Performance glitch user - valid login (slow)
+error_user,secret_sauce,SUCCESS,Error user - valid login (used for error scenario tests)
+visual_user,secret_sauce,SUCCESS,Visual user - valid login (visual differences)
+invalid_user,secret_sauce,INVALID_CREDENTIALS,Invalid username
+standard_user,wrong_password,INVALID_CREDENTIALS,Invalid password
+,secret_sauce,MISSING_USERNAME,Empty username field
+standard_user,,MISSING_PASSWORD,Empty password field
+,,MISSING_USERNAME,Both fields empty

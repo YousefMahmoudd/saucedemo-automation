@@ -1,0 +1,5 @@
+firstName,lastName,postalCode,expectedResult,description
+John,Doe,12345,SUCCESS,Valid customer information
+,Doe,12345,MISSING_FIELD,Missing first name
+John,,12345,MISSING_FIELD,Missing last name
+John,Doe,,MISSING_FIELD,Missing postal code
