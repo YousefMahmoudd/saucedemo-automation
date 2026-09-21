@@ -6,10 +6,7 @@ import com.saucedemo.pages.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-/**
- * Step 1: Authentication - successful and invalid login scenarios,
- * driven by src/test/resources/testdata/users.csv.
- */
+
 public class LoginTest extends BaseTest {
 
     @Test(description = "Login with standard_user should land on the Inventory page")
@@ -57,10 +54,7 @@ public class LoginTest extends BaseTest {
         Assert.assertTrue(loginPage.isErrorDisplayed(), "An error should be shown when both fields are empty");
     }
 
-    /**
-     * Data-driven capability: every row in users.csv is exercised here,
-     * covering all six accepted usernames plus negative cases in one run.
-     */
+  
     @Test(dataProvider = "loginData", dataProviderClass = CsvDataProviders.class,
             description = "Data-driven login coverage across all accepted users and negative cases")
     public void dataDrivenLogin(String username, String password, String expectedResult, String description) {
@@ -78,7 +72,7 @@ public class LoginTest extends BaseTest {
                 Assert.assertTrue(result.getErrorMessage().toLowerCase().contains("locked out"), description);
                 break;
             }
-            default: { // INVALID_CREDENTIALS, MISSING_USERNAME, MISSING_PASSWORD
+            default: { // INVALID_CREDENTIALS, MISSING_USERNAME, MISSING_PASSWORD-Negateive testcases 
                 LoginPage result = loginPage.loginExpectingFailure(username, password);
                 Assert.assertTrue(result.isErrorDisplayed(), description);
                 break;
