@@ -1,14 +1,12 @@
 package com.saucedemo.tests;
-
 import com.saucedemo.pages.CartPage;
 import com.saucedemo.pages.InventoryPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import java.util.List;
 
 /**
- * Step 3: Shopping Cart - add/remove products, verify badge count and cart contents.
+ * Step 3: Shopping Cart 
  */
 public class CartTest extends BaseTest {
 
