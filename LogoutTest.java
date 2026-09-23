@@ -1,5 +1,4 @@
 package com.saucedemo.tests;
-
 import com.saucedemo.pages.InventoryPage;
 import com.saucedemo.pages.LoginPage;
 import org.testng.Assert;
