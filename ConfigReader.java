@@ -3,11 +3,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-/**
- * Loads configuration from config.properties and allows overrides via
- * JVM system properties (-Dbrowser=firefox) or environment variables,
- * so the application URL / browser never need to be hard-coded.
- */
 public final class ConfigReader {
 
     private static final Properties PROPERTIES = new Properties();
