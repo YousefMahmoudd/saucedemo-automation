@@ -11,8 +11,7 @@ import java.time.Duration;
 import java.util.List;
 
 /**
- * Base class for all Page Objects. Centralizes waits and common
- * interactions so every page follows the same reliable pattern.
+ Base class for all Page Objects
  */
 public abstract class BasePage {
 
