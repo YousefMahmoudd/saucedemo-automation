@@ -1,5 +1,4 @@
 package com.saucedemo.tests;
-
 import com.saucedemo.pages.CartPage;
 import com.saucedemo.pages.InventoryPage;
 import com.saucedemo.pages.LoginPage;
