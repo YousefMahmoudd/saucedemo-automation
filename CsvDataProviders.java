@@ -1,5 +1,4 @@
 package com.saucedemo.dataproviders;
-
 import com.opencsv.CSVReader;
 import org.testng.annotations.DataProvider;
 
@@ -8,10 +7,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Reads CSV test data files for data-driven testing. Keeps test classes free
- * of hard-coded credentials / customer data.
- */
 public final class CsvDataProviders {
 
     private CsvDataProviders() {
