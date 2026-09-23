@@ -11,9 +11,7 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 /**
- * Every test extends this. Each test method gets its own fresh WebDriver
- * instance (ThreadLocal-backed), so tests are independently executable,
- * order-independent, and safe to run in parallel.
+ * Every test extends this
  */
 public abstract class BaseTest {
 
