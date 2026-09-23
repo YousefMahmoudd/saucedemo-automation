@@ -45,14 +45,14 @@
             <version>${testng.version}</version>
         </dependency>
 
-        <!-- ExtentReports - HTML test reporting -->
+        
         <dependency>
             <groupId>com.aventstack</groupId>
             <artifactId>extentreports</artifactId>
             <version>${extentreports.version}</version>
         </dependency>
 
-        <!-- OpenCSV - for data-driven testing -->
+     
         <dependency>
             <groupId>com.opencsv</groupId>
             <artifactId>opencsv</artifactId>
