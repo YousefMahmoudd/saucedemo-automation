@@ -12,10 +12,6 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 
 import java.time.Duration;
 
-/**
- * Thread-safe WebDriver factory / test-base architecture.
- * ThreadLocal storage makes this safe for parallel test execution.
- */
 public final class DriverFactory {
 
     private static final ThreadLocal<WebDriver> DRIVER_THREAD_LOCAL = new ThreadLocal<>();
