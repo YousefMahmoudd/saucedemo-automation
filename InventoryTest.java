@@ -1,10 +1,8 @@
 package com.saucedemo.tests;
-
 import com.saucedemo.pages.InventoryPage;
 import com.saucedemo.pages.ProductDetailsPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Comparator;
