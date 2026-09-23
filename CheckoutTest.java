@@ -1,16 +1,13 @@
 package com.saucedemo.tests;
-
 import com.saucedemo.dataproviders.CsvDataProviders;
 import com.saucedemo.pages.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import java.math.BigDecimal;
 import java.util.List;
 
 /**
- * Step 4: End-to-End Checkout - happy path totals verification plus
- * data-driven negative cases for missing required fields.
+ * Step 4: End-to-End Checkout scenarios - happy path totals verification plus
  */
 public class CheckoutTest extends BaseTest {
 
