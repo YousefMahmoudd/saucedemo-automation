@@ -1,11 +1,9 @@
 package com.saucedemo.tests;
-
 import com.saucedemo.dataproviders.CsvDataProviders;
 import com.saucedemo.pages.InventoryPage;
 import com.saucedemo.pages.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 
 public class LoginTest extends BaseTest {
 
